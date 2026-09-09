@@ -12,6 +12,7 @@ import ZeroDayImg from '../assets/ZeroDay.png';
 import CatImg from '../assets/Cat.png';
 import PokerImg from '../assets/Poker.png';
 import IntelligentCockpitImg from '../assets/IntelligentCockpit.png';
+import PacmanRLImg from '../assets/PacmanRL.png';
 
 // --- 个人基本信息 ---
 export const profileData = {
@@ -145,6 +146,16 @@ export const projectExperience = [
     tech: ["Human-AI Collaboration", "Interactive AI Alignment", "Deliberate Discussion", "Large Language Models"],
     year: "2025",
     image: Research3Img,
+  },
+  {
+    category: "fun",
+    title: "Pacman AI: Classical Search and Reinforcement Learning",
+    role: "Algorithm Implementation and Evaluation",
+    description:
+      "Implemented classical search with DFS, BFS, UCS, and A*, followed by value iteration, Q-learning, and approximate Q-learning. Added weight persistence and cross-map evaluation, achieving 9 wins in 10 evaluation games on originalClassic with four ghosts and an average score of 2283.5.",
+    tech: ["Python", "Search Algorithms", "Reinforcement Learning", "Q-Learning"],
+    year: "2026",
+    image: PacmanRLImg,
   },
   {
     category: "fun",
