@@ -13,6 +13,7 @@ import CatImg from '../assets/Cat.png';
 import PokerImg from '../assets/Poker.png';
 import IntelligentCockpitImg from '../assets/IntelligentCockpit.png';
 import PacmanRLImg from '../assets/PacmanRL.png';
+import PathTracingImg from '../assets/PathTracing.jpg';
 
 // --- 个人基本信息 ---
 export const profileData = {
@@ -156,6 +157,16 @@ export const projectExperience = [
     tech: ["Python", "Search Algorithms", "Reinforcement Learning", "Q-Learning"],
     year: "2026",
     image: PacmanRLImg,
+  },
+  {
+    category: "fun",
+    title: "Path Tracing Renderer",
+    role: "Computer Graphics Course Project",
+    description:
+      "Implemented a CPU-based renderer featuring ray casting, Whitted-style reflection and refraction, path tracing, area lights, soft shadows, Russian roulette, BVH acceleration",
+    tech: ["C++", "Path Tracing"],
+    year: "2026",
+    image: PathTracingImg,
   },
   {
     category: "fun",
