@@ -50,7 +50,7 @@ export const profileData = {
 education: [
     {
       school: "Tsinghua University",
-      detail: "GPA 3.8/4.0 · Top 20%",
+      detail: "GPA 3.8/4.0 · Top 15%",
       degree: "School of Vehicle and Mobility ",
       year: "2023.09 - 2027.06",
     },

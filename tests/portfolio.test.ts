@@ -21,3 +21,10 @@ test('keeps the Poker project data but hides it from project groups', () => {
   assert.match(portfolioSource, /title: "Game Development: 《Poker》"[\s\S]*?visible: false/)
   assert.match(appSource, /project\.visible !== false/)
 })
+
+test('shows the updated Tsinghua class rank', () => {
+  const source = readFileSync(new URL('../src/Data/portfolio.ts', import.meta.url), 'utf8')
+
+  assert.match(source, /detail: "GPA 3\.8\/4\.0 · Top 15%"/)
+  assert.doesNotMatch(source, /Top 20%/)
+})
