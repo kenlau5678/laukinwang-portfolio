@@ -13,3 +13,11 @@ test('includes the path tracing course project and its supplied image', () => {
   assert.match(source, /tech: \["C\+\+", "Path Tracing"\]/)
   assert.ok(existsSync(new URL('../src/assets/PathTracing.jpg', import.meta.url)))
 })
+
+test('keeps the Poker project data but hides it from project groups', () => {
+  const portfolioSource = readFileSync(new URL('../src/Data/portfolio.ts', import.meta.url), 'utf8')
+  const appSource = readFileSync(new URL('../src/App.tsx', import.meta.url), 'utf8')
+
+  assert.match(portfolioSource, /title: "Game Development: 《Poker》"[\s\S]*?visible: false/)
+  assert.match(appSource, /project\.visible !== false/)
+})

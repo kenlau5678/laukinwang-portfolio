@@ -171,6 +171,7 @@ export const projectExperience = [
   {
     category: "fun",
     title: "Game Development: 《Poker》",
+    visible: false,
     role: "Programmer",
     description: "Using Unity to develop, Card Strategy Game.",
     tech: ["Unity", "C#", "DOTWEEN"],

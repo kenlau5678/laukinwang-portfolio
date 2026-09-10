@@ -19,8 +19,8 @@ const navItems = [
 const cvUrl = `${import.meta.env.BASE_URL}CV_LAU_KIN_WANG.pdf`
 
 const projectGroups = [
-  ['Research Projects', projectExperience.filter((project) => project.category === 'research')],
-  ['Fun Projects', projectExperience.filter((project) => project.category === 'fun')],
+  ['Research Projects', projectExperience.filter((project) => project.category === 'research' && project.visible !== false)],
+  ['Fun Projects', projectExperience.filter((project) => project.category === 'fun' && project.visible !== false)],
 ] as const
 
 function ThemeToggle({ theme, onToggle }: { theme: Theme; onToggle: (event: MouseEvent<HTMLButtonElement>) => void }) {
