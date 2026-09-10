@@ -152,7 +152,7 @@ export const projectExperience = [
     title: "Pacman AI: Classical Search and Reinforcement Learning",
     role: "Algorithm Implementation and Evaluation",
     description:
-      "Implemented classical search with DFS, BFS, UCS, and A*, followed by value iteration, Q-learning, and approximate Q-learning. Added weight persistence and cross-map evaluation, achieving 9 wins in 10 evaluation games on originalClassic with four ghosts and an average score of 2283.5.",
+      "Implemented classical search with DFS, BFS, UCS, and A*, followed by value iteration, Q-learning, and approximate Q-learning. Added weight persistence and cross-map evaluation.",
     tech: ["Python", "Search Algorithms", "Reinforcement Learning", "Q-Learning"],
     year: "2026",
     image: PacmanRLImg,
