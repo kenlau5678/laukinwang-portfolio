@@ -141,7 +141,7 @@ function App() {
             <p className="eyebrow">Researcher · Developer · Designer</p>
             <h1>Kin Wang Lau</h1>
             <p className="hero-lead">
-              I am an undergraduate student at Tsinghua University. My research interests include human-computer interaction, immersive systems, and interactive intelligence. Although I am not yet fully proficient in research, I hope to pursue a Master's and PhD degree to further my academic studies.
+              I am an undergraduate student at Tsinghua University. My research interests include human-computer interaction, immersive systems, and interactive intelligence. My previous work includes VR interaction using gesture and speech, adaptive immersive experiences for cultural heritage, and human–AI collaborative tools.
             </p>
             <p className="hero-detail">
               I have a very diverse range of research and creative interests, including virtual reality, human-computer interaction, digital twins, game development, and 3D production.
